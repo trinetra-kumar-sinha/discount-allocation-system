@@ -1,0 +1,59 @@
+===========================
+ Test Case 1: Normal Case
+===========================
+Description:
+- 3 hospitals with varied metrics
+- Each hospital has 3 agents with different characteristics
+
+Expected Behavior:
+- Hospital allocations vary based on performance, revenue, rating, and service
+- Agent allocations are distributed fairly within their hospitals
+
+Sample Input (summarized):
+- Hospital 1: High performance, medium revenue
+- Hospital 2: Excellent customer rating
+- Hospital 3: Low performance, average metrics
+
+Sample Output (excerpt):
+- Agent H2_A1 → ₹106711.63
+- Agent H3_A3 → ₹20146.55
+
+===============================
+ Test Case 2: All-Same Scores
+===============================
+Description:
+- All hospitals and agents have identical metrics
+
+Expected Behavior:
+- Equal allocation among all hospitals
+- Equal share for agents in their hospital
+
+Sample Input:
+- All hospital metrics: 50
+- All agent metrics: 50
+
+Sample Output:
+- Each hospital gets 66666.66
+- Each of 3 agents per hospital gets 22222.22
+
+====================================
+ Test Case 3: Rounding Edge Case
+====================================
+Description:
+- Single hospital, single agent
+- Maxed out performance scores
+
+Expected Behavior:
+- Agent receives entire kitty
+- Rounding is handled correctly
+
+Sample Input:
+- Hospital: 100 in all features
+- Agent: 100 in all features
+
+Sample Output:
+- Agent gets full ₹200000.00
+
+Notes:
+- All outputs are capped by min/max per-agent limits.
+- Logic ensures no hospital or agent exceeds limits.
