@@ -3,164 +3,176 @@
 Enter number of hospitals: 3
 Enter total discount kitty amount (₹): 500000
 Enter minimum discount per hospital (₹): 50000
-Enter maximum discount per hospital (₹): 450000
+Enter maximum discount per hospital (₹): 200000
 Enter minimum discount per agent (₹): 10000
-Enter maximum discount per agent (₹): 200000
+Enter maximum discount per agent (₹): 150000
+
+Do you want to fill weightage of hospital parameters?
+  1. Yes
+  2. Go with predefined weightage
+Enter choice (1/2): 2
+✅ Using predefined weightage for hospital.
+
+Do you want to fill weightage of agent parameters?
+  1. Yes
+  2. Go with predefined weightage
+Enter choice (1/2): 2
+✅ Using predefined weightage for agent.
 
 💰 Total Kitty Available: ₹500000.0
 
 Enter details for Hospital 1:
-  Performance Score (0–100): 60
-  Revenue in Lakhs: 50
+  Performance Score (0–100): 90
+  Revenue in Lakhs: 80
   Customer Rating (0–5): 4
   Service Standard (0–5): 4
 
 Enter details for Hospital 2:
-  Performance Score (0–100): 90
-  Revenue in Lakhs: 90
-  Customer Rating (0–5): 5
-  Service Standard (0–5): 5
+  Performance Score (0–100): 60
+  Revenue in Lakhs: 50
+  Customer Rating (0–5): 3
+  Service Standard (0–5): 3
 
 Enter details for Hospital 3:
-  Performance Score (0–100): 30
+  Performance Score (0–100): 50
   Revenue in Lakhs: 30
   Customer Rating (0–5): 3
   Service Standard (0–5): 3
 
-🏥 Hospital H1 allocated ₹166021.92 based on performance.
+🏥 Hospital H1 allocated ₹200000.0 based on performance.
   Enter number of agents in Hospital H1: 3
 
 Enter details for Agent H1_A1:
-  Performance Score (0–100): 90
+  Performance Score (0–100): 60
   Seniority in Months: 36
-  Target Achieved (%): 80
-  Active Clients: 45
-  Customer Retention Rate (%): 70
-  New Clients Acquired: 12
-  Client Satisfaction (0–100): 60
-  Upselling/Cross-selling Rate (%): 70
-  Workload Complexity (1–5): 4
-
-Enter details for Agent H1_A2:
-  Performance Score (0–100): 60
-  Seniority in Months: 24
-  Target Achieved (%): 50
-  Active Clients: 12
+  Target Achieved (%): 60
+  Active Clients: 6
   Customer Retention Rate (%): 60
-  New Clients Acquired: 3
-  Client Satisfaction (0–100): 50
-  Upselling/Cross-selling Rate (%): 40
-  Workload Complexity (1–5): 3
-
-Enter details for Agent H1_A3:
-  Performance Score (0–100): 30
-  Seniority in Months: 12
-  Target Achieved (%): 40
-  Active Clients: 5
-  Customer Retention Rate (%): 40
-  New Clients Acquired: 2
-  Client Satisfaction (0–100): 30
-  Upselling/Cross-selling Rate (%): 40
-  Workload Complexity (1–5): 2
-
-🏥 Hospital H2 allocated ₹224693.75 based on performance.
-  Enter number of agents in Hospital H2: 3
-
-Enter details for Agent H2_A1:
-  Performance Score (0–100): 90
-  Seniority in Months: 55
-  Target Achieved (%): 70
-  Active Clients: 12
-  Customer Retention Rate (%): 80
   New Clients Acquired: 6
-  Client Satisfaction (0–100): 70
-  Upselling/Cross-selling Rate (%): 80
-  Workload Complexity (1–5): 4
-
-Enter details for Agent H2_A2:
-  Performance Score (0–100): 60
-  Seniority in Months: 24
-  Target Achieved (%): 45
-  Active Clients: 7
-  Customer Retention Rate (%): 60
-  New Clients Acquired: 5
-  Client Satisfaction (0–100): 70
+  Client Satisfaction (0–100): 60
   Upselling/Cross-selling Rate (%): 60
   Workload Complexity (1–5): 3
 
-Enter details for Agent H2_A3:
-  Performance Score (0–100): 20
-  Seniority in Months: 24
-  Target Achieved (%): 30
-  Active Clients: 4
-  Customer Retention Rate (%): 30
-  New Clients Acquired: 4
-  Client Satisfaction (0–100): 50
-  Upselling/Cross-selling Rate (%): 40
-  Workload Complexity (1–5): 2
+Enter details for Agent H1_A2:
+  Performance Score (0–100): 60
+  Seniority in Months: 36
+  Target Achieved (%): 60
+  Active Clients: 6
+  Customer Retention Rate (%): 60
+  New Clients Acquired: 6
+  Client Satisfaction (0–100): 60
+  Upselling/Cross-selling Rate (%): 60
+  Workload Complexity (1–5): 3
 
-🏥 Hospital H3 allocated ₹109284.33 based on performance.
+Enter details for Agent H1_A3:
+  Performance Score (0–100): 90
+  Seniority in Months: 54
+  Target Achieved (%): 68
+  Active Clients: 11
+  Customer Retention Rate (%): 70
+  New Clients Acquired: 60
+  Client Satisfaction (0–100): 80
+  Upselling/Cross-selling Rate (%): 50
+  Workload Complexity (1–5): 4
+
+🏥 Hospital H2 allocated ₹150207.18 based on performance.
+  Enter number of agents in Hospital H2: 3
+
+Enter details for Agent H2_A1:
+  Performance Score (0–100): 60
+  Seniority in Months: 35
+  Target Achieved (%): 80
+  Active Clients: 7
+  Customer Retention Rate (%): 75
+  New Clients Acquired: 6
+  Client Satisfaction (0–100): 80
+  Upselling/Cross-selling Rate (%): 30
+  Workload Complexity (1–5): 4
+
+Enter details for Agent H2_A2:
+  Performance Score (0–100): 50
+  Seniority in Months: 6
+  Target Achieved (%): 69
+  Active Clients: 18
+  Customer Retention Rate (%): 80
+  New Clients Acquired: 65
+  Client Satisfaction (0–100): 69
+  Upselling/Cross-selling Rate (%): 67
+  Workload Complexity (1–5): 4
+
+Enter details for Agent H2_A3:
+  Performance Score (0–100): 70
+  Seniority in Months: 10
+  Target Achieved (%): 80
+  Active Clients: 45
+  Customer Retention Rate (%): 75
+  New Clients Acquired: 6
+  Client Satisfaction (0–100): 50
+  Upselling/Cross-selling Rate (%): 50
+  Workload Complexity (1–5): 5
+
+🏥 Hospital H3 allocated ₹137776.24 based on performance.
   Enter number of agents in Hospital H3: 3
 
 Enter details for Agent H3_A1:
   Performance Score (0–100): 80
-  Seniority in Months: 60
-  Target Achieved (%): 90
-  Active Clients: 22
-  Customer Retention Rate (%): 70
-  New Clients Acquired: 11
-  Client Satisfaction (0–100): 80
-  Upselling/Cross-selling Rate (%): 80
-  Workload Complexity (1–5): 4
+  Seniority in Months: 55
+  Target Achieved (%): 70
+  Active Clients: 6
+  Customer Retention Rate (%): 84
+  New Clients Acquired: 4
+  Client Satisfaction (0–100): 90
+  Upselling/Cross-selling Rate (%): 10
+  Workload Complexity (1–5): 3
 
 Enter details for Agent H3_A2:
-  Performance Score (0–100): 60
-  Seniority in Months: 23
-  Target Achieved (%): 60
-  Active Clients: 9
-  Customer Retention Rate (%): 50
-  New Clients Acquired: 5
-  Client Satisfaction (0–100): 60
-  Upselling/Cross-selling Rate (%): 65
+  Performance Score (0–100): 40
+  Seniority in Months: 6
+  Target Achieved (%): 90
+  Active Clients: 12
+  Customer Retention Rate (%): 95
+  New Clients Acquired: 6
+  Client Satisfaction (0–100): 40
+  Upselling/Cross-selling Rate (%): 30
   Workload Complexity (1–5): 3
 
 Enter details for Agent H3_A3:
-  Performance Score (0–100): 20
-  Seniority in Months: 12
-  Target Achieved (%): 32
+  Performance Score (0–100): 60
+  Seniority in Months: 45
+  Target Achieved (%): 48
   Active Clients: 5
-  Customer Retention Rate (%): 39
-  New Clients Acquired: 5
-  Client Satisfaction (0–100): 40
-  Upselling/Cross-selling Rate (%): 45
-  Workload Complexity (1–5): 2
+  Customer Retention Rate (%): 90
+  New Clients Acquired: 6
+  Client Satisfaction (0–100): 60
+  Upselling/Cross-selling Rate (%): 90
+  Workload Complexity (1–5): 5
 
-Agent H1_A1 (Hospital H1) → ₹80426.26
-Justification: Agent H1_A1 has performance (90.0), retention (70.0%), satisfaction (60.0), upselling rate (70.0%), 36.0 months of experience, workload complexity (4.0).
+Agent H1_A1 (Hospital H1) → ₹57274.3
+Justification: Agent H1_A1 has performance (60.0), retention (60.0%), satisfaction (60.0), upselling rate (60.0%), 36.0 months of experience, workload complexity (3.0).
 
-Agent H1_A2 (Hospital H1) → ₹52054.66
-Justification: Agent H1_A2 has performance (60.0), retention (60.0%), satisfaction (50.0), upselling rate (40.0%), 24.0 months of experience, workload complexity (3.0).
+Agent H1_A2 (Hospital H1) → ₹57274.3
+Justification: Agent H1_A2 has performance (60.0), retention (60.0%), satisfaction (60.0), upselling rate (60.0%), 36.0 months of experience, workload complexity (3.0).
 
-Agent H1_A3 (Hospital H1) → ₹33541.0
-Justification: Agent H1_A3 has performance (30.0), retention (40.0%), satisfaction (30.0), upselling rate (40.0%), 12.0 months of experience, workload complexity (2.0).
+Agent H1_A3 (Hospital H1) → ₹85451.41
+Justification: Agent H1_A3 has performance (90.0), retention (70.0%), satisfaction (80.0), upselling rate (50.0%), 54.0 months of experience, workload complexity (4.0).
 
-Agent H2_A1 (Hospital H2) → ₹106711.63
-Justification: Agent H2_A1 has performance (90.0), retention (80.0%), satisfaction (70.0), upselling rate (80.0%), 55.0 months of experience, workload complexity (4.0).
+Agent H2_A1 (Hospital H2) → ₹47403.18
+Justification: Agent H2_A1 has performance (60.0), retention (75.0%), satisfaction (80.0), upselling rate (30.0%), 35.0 months of experience, workload complexity (4.0).
 
-Agent H2_A2 (Hospital H2) → ₹73907.88
-Justification: Agent H2_A2 has performance (60.0), retention (60.0%), satisfaction (70.0), upselling rate (60.0%), 24.0 months of experience, workload complexity (3.0).
+Agent H2_A2 (Hospital H2) → ₹53973.19
+Justification: Agent H2_A2 has performance (50.0), retention (80.0%), satisfaction (69.0), upselling rate (67.0%), 6.0 months of experience, workload complexity (4.0).
 
-Agent H2_A3 (Hospital H2) → ₹44074.24
-Justification: Agent H2_A3 has performance (20.0), retention (30.0%), satisfaction (50.0), upselling rate (40.0%), 24.0 months of experience, workload complexity (2.0).
+Agent H2_A3 (Hospital H2) → ₹48830.81
+Justification: Agent H2_A3 has performance (70.0), retention (75.0%), satisfaction (50.0), upselling rate (50.0%), 10.0 months of experience, workload complexity (5.0).
 
-Agent H3_A1 (Hospital H3) → ₹53497.76
-Justification: Agent H3_A1 has performance (80.0), retention (70.0%), satisfaction (80.0), upselling rate (80.0%), 60.0 months of experience, workload complexity (4.0).
+Agent H3_A1 (Hospital H3) → ₹50261.96
+Justification: Agent H3_A1 has performance (80.0), retention (84.0%), satisfaction (90.0), upselling rate (10.0%), 55.0 months of experience, workload complexity (3.0).
 
-Agent H3_A2 (Hospital H3) → ₹35640.02
-Justification: Agent H3_A2 has performance (60.0), retention (50.0%), satisfaction (60.0), upselling rate (65.0%), 23.0 months of experience, workload complexity (3.0).
+Agent H3_A2 (Hospital H3) → ₹38169.29
+Justification: Agent H3_A2 has performance (40.0), retention (95.0%), satisfaction (40.0), upselling rate (30.0%), 6.0 months of experience, workload complexity (3.0).
 
-Agent H3_A3 (Hospital H3) → ₹20146.55
-Justification: Agent H3_A3 has performance (20.0), retention (39.0%), satisfaction (40.0), upselling rate (45.0%), 12.0 months of experience, workload complexity (2.0).
+Agent H3_A3 (Hospital H3) → ₹49344.98
+Justification: Agent H3_A3 has performance (60.0), retention (90.0%), satisfaction (60.0), upselling rate (90.0%), 45.0 months of experience, workload complexity (5.0).
 
 
 JSON OUTPUT:
@@ -169,57 +181,57 @@ JSON OUTPUT:
   "allocations": [
     {
       "id": "H1_A1",
-      "assignedDiscount": 80426.26,
+      "assignedDiscount": 57274.3,
       "hospitalId": "H1",
-      "justification": "Agent H1_A1 has performance (90.0), retention (70.0%), satisfaction (60.0), upselling rate (70.0%), 36.0 months of experience, workload complexity (4.0)."
+      "justification": "Agent H1_A1 has performance (60.0), retention (60.0%), satisfaction (60.0), upselling rate (60.0%), 36.0 months of experience, workload complexity (3.0)."
     },
     {
       "id": "H1_A2",
-      "assignedDiscount": 52054.66,
+      "assignedDiscount": 57274.3,
       "hospitalId": "H1",
-      "justification": "Agent H1_A2 has performance (60.0), retention (60.0%), satisfaction (50.0), upselling rate (40.0%), 24.0 months of experience, workload complexity (3.0)."
+      "justification": "Agent H1_A2 has performance (60.0), retention (60.0%), satisfaction (60.0), upselling rate (60.0%), 36.0 months of experience, workload complexity (3.0)."
     },
     {
       "id": "H1_A3",
-      "assignedDiscount": 33541.0,
+      "assignedDiscount": 85451.41,
       "hospitalId": "H1",
-      "justification": "Agent H1_A3 has performance (30.0), retention (40.0%), satisfaction (30.0), upselling rate (40.0%), 12.0 months of experience, workload complexity (2.0)."
+      "justification": "Agent H1_A3 has performance (90.0), retention (70.0%), satisfaction (80.0), upselling rate (50.0%), 54.0 months of experience, workload complexity (4.0)."
     },
     {
       "id": "H2_A1",
-      "assignedDiscount": 106711.63,
+      "assignedDiscount": 47403.18,
       "hospitalId": "H2",
-      "justification": "Agent H2_A1 has performance (90.0), retention (80.0%), satisfaction (70.0), upselling rate (80.0%), 55.0 months of experience, workload complexity (4.0)."
+      "justification": "Agent H2_A1 has performance (60.0), retention (75.0%), satisfaction (80.0), upselling rate (30.0%), 35.0 months of experience, workload complexity (4.0)."
     },
     {
       "id": "H2_A2",
-      "assignedDiscount": 73907.88,
+      "assignedDiscount": 53973.19,
       "hospitalId": "H2",
-      "justification": "Agent H2_A2 has performance (60.0), retention (60.0%), satisfaction (70.0), upselling rate (60.0%), 24.0 months of experience, workload complexity (3.0)."
+      "justification": "Agent H2_A2 has performance (50.0), retention (80.0%), satisfaction (69.0), upselling rate (67.0%), 6.0 months of experience, workload complexity (4.0)."
     },
     {
       "id": "H2_A3",
-      "assignedDiscount": 44074.24,
+      "assignedDiscount": 48830.81,
       "hospitalId": "H2",
-      "justification": "Agent H2_A3 has performance (20.0), retention (30.0%), satisfaction (50.0), upselling rate (40.0%), 24.0 months of experience, workload complexity (2.0)."
+      "justification": "Agent H2_A3 has performance (70.0), retention (75.0%), satisfaction (50.0), upselling rate (50.0%), 10.0 months of experience, workload complexity (5.0)."
     },
     {
       "id": "H3_A1",
-      "assignedDiscount": 53497.76,
+      "assignedDiscount": 50261.96,
       "hospitalId": "H3",
-      "justification": "Agent H3_A1 has performance (80.0), retention (70.0%), satisfaction (80.0), upselling rate (80.0%), 60.0 months of experience, workload complexity (4.0)."
+      "justification": "Agent H3_A1 has performance (80.0), retention (84.0%), satisfaction (90.0), upselling rate (10.0%), 55.0 months of experience, workload complexity (3.0)."
     },
     {
       "id": "H3_A2",
-      "assignedDiscount": 35640.02,
+      "assignedDiscount": 38169.29,
       "hospitalId": "H3",
-      "justification": "Agent H3_A2 has performance (60.0), retention (50.0%), satisfaction (60.0), upselling rate (65.0%), 23.0 months of experience, workload complexity (3.0)."
+      "justification": "Agent H3_A2 has performance (40.0), retention (95.0%), satisfaction (40.0), upselling rate (30.0%), 6.0 months of experience, workload complexity (3.0)."
     },
     {
       "id": "H3_A3",
-      "assignedDiscount": 20146.55,
+      "assignedDiscount": 49344.98,
       "hospitalId": "H3",
-      "justification": "Agent H3_A3 has performance (20.0), retention (39.0%), satisfaction (40.0), upselling rate (45.0%), 12.0 months of experience, workload complexity (2.0)."
+      "justification": "Agent H3_A3 has performance (60.0), retention (90.0%), satisfaction (60.0), upselling rate (90.0%), 45.0 months of experience, workload complexity (5.0)."
     }
   ]
 }
@@ -228,29 +240,29 @@ SUMMARY:
 
 Total kitty ₹500000.0 distributed to hospitals and their agents:
 
-Agent H1_A1 → ₹80426.26
-Justification: Agent H1_A1 has performance (90.0), retention (70.0%), satisfaction (60.0), upselling rate (70.0%), 36.0 months of experience, workload complexity (4.0).
+Agent H1_A1 → ₹57274.3
+Justification: Agent H1_A1 has performance (60.0), retention (60.0%), satisfaction (60.0), upselling rate (60.0%), 36.0 months of experience, workload complexity (3.0).
 
-Agent H1_A2 → ₹52054.66
-Justification: Agent H1_A2 has performance (60.0), retention (60.0%), satisfaction (50.0), upselling rate (40.0%), 24.0 months of experience, workload complexity (3.0).
+Agent H1_A2 → ₹57274.3
+Justification: Agent H1_A2 has performance (60.0), retention (60.0%), satisfaction (60.0), upselling rate (60.0%), 36.0 months of experience, workload complexity (3.0).
 
-Agent H1_A3 → ₹33541.0
-Justification: Agent H1_A3 has performance (30.0), retention (40.0%), satisfaction (30.0), upselling rate (40.0%), 12.0 months of experience, workload complexity (2.0).
+Agent H1_A3 → ₹85451.41
+Justification: Agent H1_A3 has performance (90.0), retention (70.0%), satisfaction (80.0), upselling rate (50.0%), 54.0 months of experience, workload complexity (4.0).
 
-Agent H2_A1 → ₹106711.63
-Justification: Agent H2_A1 has performance (90.0), retention (80.0%), satisfaction (70.0), upselling rate (80.0%), 55.0 months of experience, workload complexity (4.0).
+Agent H2_A1 → ₹47403.18
+Justification: Agent H2_A1 has performance (60.0), retention (75.0%), satisfaction (80.0), upselling rate (30.0%), 35.0 months of experience, workload complexity (4.0).
 
-Agent H2_A2 → ₹73907.88
-Justification: Agent H2_A2 has performance (60.0), retention (60.0%), satisfaction (70.0), upselling rate (60.0%), 24.0 months of experience, workload complexity (3.0).
+Agent H2_A2 → ₹53973.19
+Justification: Agent H2_A2 has performance (50.0), retention (80.0%), satisfaction (69.0), upselling rate (67.0%), 6.0 months of experience, workload complexity (4.0).
 
-Agent H2_A3 → ₹44074.24
-Justification: Agent H2_A3 has performance (20.0), retention (30.0%), satisfaction (50.0), upselling rate (40.0%), 24.0 months of experience, workload complexity (2.0).
+Agent H2_A3 → ₹48830.81
+Justification: Agent H2_A3 has performance (70.0), retention (75.0%), satisfaction (50.0), upselling rate (50.0%), 10.0 months of experience, workload complexity (5.0).
 
-Agent H3_A1 → ₹53497.76
-Justification: Agent H3_A1 has performance (80.0), retention (70.0%), satisfaction (80.0), upselling rate (80.0%), 60.0 months of experience, workload complexity (4.0).
+Agent H3_A1 → ₹50261.96
+Justification: Agent H3_A1 has performance (80.0), retention (84.0%), satisfaction (90.0), upselling rate (10.0%), 55.0 months of experience, workload complexity (3.0).
 
-Agent H3_A2 → ₹35640.02
-Justification: Agent H3_A2 has performance (60.0), retention (50.0%), satisfaction (60.0), upselling rate (65.0%), 23.0 months of experience, workload complexity (3.0).
+Agent H3_A2 → ₹38169.29
+Justification: Agent H3_A2 has performance (40.0), retention (95.0%), satisfaction (40.0), upselling rate (30.0%), 6.0 months of experience, workload complexity (3.0).
 
-Agent H3_A3 → ₹20146.55
-Justification: Agent H3_A3 has performance (20.0), retention (39.0%), satisfaction (40.0), upselling rate (45.0%), 12.0 months of experience, workload complexity (2.0).                          
+Agent H3_A3 → ₹49344.98
+Justification: Agent H3_A3 has performance (60.0), retention (90.0%), satisfaction (60.0), upselling rate (90.0%), 45.0 months of experience, workload complexity (5.0).
