@@ -1,0 +1,47 @@
+{
+  "agent": {
+    "weights": {
+      "performanceScore": 0.2,
+      "seniorityMonths": 0.1,
+      "targetAchievedPercent": 0.15,
+      "activeClients": 0.1,
+      "customerRetentionRate": 0.1,
+      "newClientAcquisition": 0.1,
+      "clientSatisfactionScore": 0.1,
+      "upsellingCrossSellingRate": 0.1,
+      "workloadComplexity": 0.05
+    },
+    "featureRanges": {
+      "performanceScore": [0, 100],
+      "seniorityMonths": [0, 60],
+      "targetAchievedPercent": [0, 100],
+      "activeClients": [0, 50],
+      "customerRetentionRate": [0, 100],
+      "newClientAcquisition": [0, 30],
+      "clientSatisfactionScore": [0, 100],
+      "upsellingCrossSellingRate": [0, 100],
+      "workloadComplexity": [1, 5]
+    },
+    "minDiscount": 500,
+    "maxDiscount": 7000
+  },
+
+  "hospital": {
+    "weights": {
+      "performanceScore": 0.3,
+      "revenue": 0.3,
+      "customerRating": 0.2,
+      "serviceStandard": 0.2
+    },
+    "featureRanges": {
+      "performanceScore": [0, 100],
+      "revenue": [0, 1000],
+      "customerRating": [0, 5],
+      "serviceStandard": [0, 5]
+    },
+    "minDiscount": 10000,
+    "maxDiscount": 50000
+  },
+
+  "globalKitty": 200000
+}
